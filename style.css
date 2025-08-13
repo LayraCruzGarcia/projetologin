@@ -48,3 +48,12 @@ section#login > div#Formulário {
     display: block;
 
 }
+
+div#Formulário > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#Formulário > p {
+    font-size: 1em;
+}
