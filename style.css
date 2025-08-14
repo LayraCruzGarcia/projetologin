@@ -84,7 +84,7 @@ form > a.botao{
     background-color:white;
     color: #256462;
     border: 1px solid #49a09d;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     padding-top: 7px;
     margin-top: 5px;
@@ -103,11 +103,35 @@ form>a.botao>i{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 
  }
 
  div.campo > label{
     display: none;
+ }
+
+ div.campo > i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+ }
+
+ 
+ div.campo > input:focus-within{
+    background-color: white;
+ }
+
+ div.campo > input{
+    background-color: #95899d;
+    font-size: 1em;
+    width: 184.5px;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10px);
+   
  }

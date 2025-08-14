@@ -14,6 +14,7 @@
 
     section#login{
         width: 80vw;
+        height: 280px;
 
     }
     section#login > div#imagem{
@@ -35,6 +36,7 @@
 
     section#login{
         width: 990px;
+        height: 350px;
     }
     
     section#login > div#imagem {
@@ -52,4 +54,15 @@
     div#Formulário>p {
             font-size: 1.3em;
         }
+
+    div.campo > input {
+        background-color: #95899d;
+            font-size: 1em;
+            width: 384px;
+            height: 100%;
+            border: 0px;
+            border-radius: 8px;
+            padding: 4px;
+            transform: translateY(-10px);
+    }
 }
